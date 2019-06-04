@@ -1,0 +1,10 @@
+main {
+  display: flex;
+}
+
+app-post-selected {
+  position: fixed;
+  margin-left: 47%;
+  width: 50%;
+  margin-top: 12px;
+}

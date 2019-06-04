@@ -1,0 +1,5 @@
+<mat-list role="list">
+  <mat-list-item  *ngFor="let post of posts" role="listitem" (click)="select.emit(post.id)">
+    <app-post  [post]="post"></app-post>
+  </mat-list-item>
+</mat-list>
